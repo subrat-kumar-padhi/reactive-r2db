@@ -24,6 +24,22 @@ Master Git link for R2DB : Gitlink:https://github.com/hantsy/spring-r2dbc-sample
 4. Refer to this below link for the git code and before refering to the git read the above confluence page.
   Gitlink:https://github.com/hantsy/spring-r2dbc-sample/tree/master/data-r2dbc-repositories
 
+5. dependency (works with spring-boot 3 as well)
+
+       <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-r2dbc</artifactId>
+        </dependency>
+        <dependency>
+          <groupId>org.springframework.data</groupId>
+          <artifactId>spring-data-r2dbc</artifactId>
+        </dependency>
+          <dependency>
+            <groupId>io.r2dbc</groupId>
+            <artifactId>r2dbc-postgresql</artifactId>
+            <version>0.8.13.RELEASE</version>
+          </dependency>
+
 
 
 Note: You can also achieve this using the below approach.
